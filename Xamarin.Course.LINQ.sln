@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Course.LINQ", "Xamarin.Course.LINQ.csproj", "{28A30807-8687-43E4-92CC-9419CD3ADEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitDemo", "AsyncAwaitDemo\AsyncAwaitDemo.csproj", "{FFE8BFC9-FB4E-4966-855B-A14483265444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A30807-8687-43E4-92CC-9419CD3ADEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A30807-8687-43E4-92CC-9419CD3ADEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A30807-8687-43E4-92CC-9419CD3ADEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A30807-8687-43E4-92CC-9419CD3ADEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE8BFC9-FB4E-4966-855B-A14483265444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE8BFC9-FB4E-4966-855B-A14483265444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE8BFC9-FB4E-4966-855B-A14483265444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE8BFC9-FB4E-4966-855B-A14483265444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

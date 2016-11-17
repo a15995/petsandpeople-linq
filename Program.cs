@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Xamarin.Course.LINQ
 {
@@ -177,7 +178,15 @@ namespace Xamarin.Course.LINQ
                 Console.WriteLine("Personnavn: " + match.pername + " (" + match.petname + ")" );
             }
 
+            MainAsync().Wait(); // Hvis afvikles uden Wait udføres Delay asynkront (samtidigt)
+            Console.WriteLine("After MainAsync!");
+
             Console.ReadKey();
+        }
+        public async static Task MainAsync() // Hvis returtype void frem for Task afvikles Delay synkront (MainAsync tager ikke imod Wait())
+        {
+            await Task.Delay(1000); // Hvis afvikles uden await udføres Delay asynkront (samtidigt)
+            Console.WriteLine("After Delay!");
         }
     }
 }
